@@ -131,6 +131,10 @@ section {
   opacity: .8;
 }
 
+.container form .fields button:active {
+  opacity: .6;
+}
+
 .container form .qrcode {
   display: flex;
   flex-direction: column;
