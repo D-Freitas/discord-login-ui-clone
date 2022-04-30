@@ -169,11 +169,11 @@ section {
   margin-bottom: 8px;
 }
 
-.container form .qrcode .description,
-.container form .qrcode .description strong {
-  color: var(--gray-100);
+.container form .qrcode .description {
+  color: var(--gray-200);
 }
 
 .container form .qrcode .description strong {
+  color: var(--gray-100);
   font-weight: bold;
 }
