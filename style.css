@@ -177,3 +177,13 @@ section {
   color: var(--gray-100);
   font-weight: bold;
 }
+
+@media screen and (max-width: 782px) {
+  .container {
+    width: 414px;
+  }
+
+  .container form .qrcode {
+    display: none; 
+  }
+}
