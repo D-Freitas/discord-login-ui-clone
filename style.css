@@ -187,3 +187,36 @@ section {
     display: none; 
   }
 }
+
+@media screen and (max-width: 414px) {
+  section {
+    width: 100%; 
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border-radius: 0;
+  }
+
+  .container .auth-box {
+    position: relative;
+    align-items: center;
+  }
+
+  .auth-box::before {
+    position: absolute;
+    content: '';
+    top: 3vh;
+    transform: translate(-50%);
+    left: 50%;
+    background: url("assets/img/logomark.svg") no-repeat;
+    width: 130px;
+    height: 30px;
+  }
+}
