@@ -212,11 +212,17 @@ section {
   .auth-box::before {
     position: absolute;
     content: '';
-    top: 3vh;
+    top: 0;
     transform: translate(-50%);
     left: 50%;
     background: url("assets/img/logomark.svg") no-repeat;
     width: 130px;
     height: 30px;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .auth-box::before {
+    display: none;
   }
 }
